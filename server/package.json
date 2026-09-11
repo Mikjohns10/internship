@@ -21,6 +21,12 @@
   "description": "Real-time client project dashboard backend",
   "dependencies": {
     "@prisma/client": "^5.22.0",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cookie-parser": "^1.4.10",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^22.20.2",
     "@types/node-cron": "^3.0.11",
     "bcryptjs": "^3.0.3",
     "cookie-parser": "^1.4.7",
@@ -31,17 +37,11 @@
     "node-cron": "^4.6.0",
     "pg": "^8.23.0",
     "socket.io": "^4.8.3",
-    "zod": "^4.6.2"
+    "zod": "^4.6.2",
+    "typescript": "^7.0.2",
+    "prisma": "^5.22.0"
   },
   "devDependencies": {
-    "@types/bcryptjs": "^2.4.6",
-    "@types/cookie-parser": "^1.4.10",
-    "@types/cors": "^2.8.19",
-    "@types/express": "^5.0.6",
-    "@types/jsonwebtoken": "^9.0.10",
-    "@types/node": "^22.20.2",
-    "prisma": "^5.22.0",
-    "ts-node-dev": "^2.0.0",
-    "typescript": "^7.0.2"
+    "ts-node-dev": "^2.0.0"
   }
 }
