@@ -7,7 +7,7 @@ import { refreshToken, getMe } from '../api/auth.api';
  * Attempts to refresh the access token from the HttpOnly cookie.
  */
 export function useAuth() {
-  const { setAuth, clearAuth, setLoading, isAuthenticated, user } = useAuthStore();
+  const { setAuth, clearAuth, isAuthenticated, user } = useAuthStore();
   const [initialized, setInitialized] = useState(false);
 
   useEffect(() => {
